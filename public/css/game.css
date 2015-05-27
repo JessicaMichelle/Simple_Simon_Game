@@ -35,10 +35,12 @@ h3 {
 	float: left;
 	margin-top: 60px;
 	margin-left: 70px;
-	border: 2px dashed black;
+	border: 2px solid black;
 	border-top-left-radius: 100%;
     border-bottom-right-radius: 50%;
     opacity: .50;
+    box-shadow: 1px 5px 5px #000000;
+
 }
 
 .box2 {
@@ -48,10 +50,11 @@ h3 {
 	float: left;
 	margin-top: 60px;
 	margin-left: 35px;
-	border: 2px dashed black;
+	border: 2px solid black;
 	border-top-right-radius: 100%;
     border-bottom-left-radius: 50%;
     opacity: .50;
+    box-shadow: -1px 5px 5px #000000;
 }
 
 .box3 {
@@ -62,10 +65,11 @@ h3 {
 	clear: left;
 	margin-left: 70px;
 	margin-top: 50px;
-	border: 2px dashed black;
+	border: 2px solid black;
 	border-bottom-left-radius: 100%;
     border-top-right-radius: 50%;
     opacity: .50;
+    box-shadow: 1px -5px 5px #000000;
 }
 
 .box4 {
@@ -75,10 +79,11 @@ h3 {
 	float: left;
 	margin-top: 50px;
 	margin-left: 35px;
-	border: 2px dashed black;
+	border: 2px solid black;
 	border-bottom-right-radius: 100%;
     border-top-left-radius: 50%;
     opacity: .50;
+    box-shadow: -1px -5px 5px #000000;
 }
 
 .start {
@@ -95,4 +100,5 @@ h3 {
 	font-weight: bold;
 	font-size: 28px;
 	background-color: white;
+	box-shadow: 1px 1px 5px #000000;
 }
